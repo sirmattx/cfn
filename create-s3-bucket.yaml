@@ -5,10 +5,7 @@ Resources:
   S3Bucket:
     Type: 'AWS::S3::Bucket'
     Properties:
-      BucketName: !Sub '${AWS::StackName}-bucket'
-      # Uncomment below to add versioning
-      # VersioningConfiguration:
-      #   Status: Enabled
+      BucketName: createdummybucket
 
 Outputs:
   BucketName:
